@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+#someThing{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 95%;
+    font-size: 1.2em;
+}
+.cloeItem{
+    width: 5%;
+}
+
+li{
+    list-style: none;
+    color: white;
+    background: #006db3;
+    border: 3px solid #63ccff;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin: 10px 0;
+    /* min-height: 30px; */
+    text-align: justify;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.listArea button{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    background: url(https://cdn.dribbble.com/users/33046/screenshots/2902861/attachments/605661/icon-pattern-blue.png);
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.innerContainer{
+    width: 50%;
+    background: #0086c3;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding-top: 40px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    /* position: relative; */
+}
+button{
+    cursor: pointer;
+}
+
+.inputArea{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.inputArea input{
+    height: 30px;
+    width: 50%;
+    border: none;
+    font-size: 17px;
+    box-sizing: content-box;
+    padding-left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.inputArea input:focus,.inputArea input:active{
+    outline: none;
+}
+
+.inputArea button{
+    border: none;
+    height: 32px;
+    width: 20%;
+    background: #2AB0F2;
+    color: white;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+}
+
+li i{
+    vertical-align: middle;
+}
+
+
+
+
+.active{
+    background: #338a3e !important;
+    border-color: #98ee99 !important;
+}
+
+.mainHeader{
+    color: white;
+    font-size: 5em;
+    text-align: center;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .innerContainer{
+        width: 100%;
+    }
+    .mainHeader{
+        font-size: 3em;
+    }
+}
